@@ -1,0 +1,77 @@
+html {
+    background-color: black;
+}
+
+Header {
+    background-image: url(http://www.youngcalifornia.com/wp-content/uploads/2017/10/golflaunch6-1024x682.jpg);
+    background-size: contain;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+Header > div {
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 120px;
+}
+
+footer {
+    background-color: black;
+}
+
+address {
+    color: white;
+    padding-top: 10px;
+}
+
+.Nav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.Vintage {
+    color: white;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/91/c5/c6/91c5c6f7615e23130adbc21223ef46d0.jpg);
+    border: solid;
+    border-color: white;
+    padding: 200px 200px;
+    background-size: cover;
+}
+
+.Vintage > h3 {
+    background-color: black;
+}
+
+.Street {
+    color: white;
+    background-image: url(http://www.themaskedgorilla.com/wp-content/uploads/2015/08/supreme-2015-fall-winter-lookbook-18.jpg);   
+    border: solid;
+    border-color: white;
+    padding: 200px 200px;
+    background-size: cover;
+}
+
+.Street > h3 {
+    background-color: black;
+}
+
+.Designer {
+    background-image: url(https://i64.photobucket.com/albums/h164/ybfchic/Met%20Ball%202019/FrankMet1.jpg);   
+    color: white;
+    border: solid;
+    border-color: white;
+    padding: 200px 200px;
+    background-size: cover;
+}
+
+.Designer > h3 {
+    background-color: black;
+}
